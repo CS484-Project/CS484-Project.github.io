@@ -1,4 +1,4 @@
-# project-main
+# CS 484 Project Documentation
 This project was collaborated on by Ben Saalberg, Derik Torres, Emily Haigh, and Quinn Collins
 Completed by requirement as a semester project for CS 484 at Kalamazoo College, Fall 2023
 
