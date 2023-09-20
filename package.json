@@ -1,4 +1,12 @@
 {
+  "name": "personal-project-1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Saalberg",
   "devDependencies": {
     "electron": "^26.2.1"
   }
