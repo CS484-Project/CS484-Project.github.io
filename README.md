@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# CS 484 Project Documentation
-=======
 # Project Main Branch
->>>>>>> 768f6e2f905080ce3488878b1cdc7fc499050a36
 This project was collaborated on by Ben Saalberg, Derik Torres, Emily Haigh, and Quinn Collins
 Completed by requirement as a semester project for CS 484 at Kalamazoo College, Fall 2023
 
