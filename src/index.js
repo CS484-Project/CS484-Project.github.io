@@ -1,5 +1,21 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('node:path')
+const eventEmitter = require('events')
+
+const loadingEvents = new eventEmitter()
+const createMainWindow = () => new BrowserWindow()
+
+app.on('ready', () => {
+  const window = createMainWindow()
+  window.loadFile('loading.html')
+
+  // Our loadingEvents object listens for 'finished'
+  loadingEvents.on('finished', () => {
+  window.loadFile('index.html')
+})
+
+  setTimeout(() => loadingEvents.emit('finished'), 3000)
+})
 
 const createWindow = () => {
   const win = new BrowserWindow({
