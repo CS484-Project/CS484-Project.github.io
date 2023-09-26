@@ -1,5 +1,7 @@
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('node:path')
+
+/* Code to wait for index to finish loading and then loading screen disappears
 const eventEmitter = require('events')
 
 const loadingEvents = new eventEmitter()
@@ -16,6 +18,7 @@ app.on('ready', () => {
 
   setTimeout(() => loadingEvents.emit('finished'), 3000)
 })
+*/
 
 const createWindow = () => {
   const win = new BrowserWindow({
