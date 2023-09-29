@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Test</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <p>test</p>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <link rel="stylesheet" href="../components/styles.css" />
+    <title>Polr</title>
+  </head>
+  <body>
+      <header>
+        <nav>
+          <ul class="nav__links">
+            <li><a href="#">Main</a></li>
+            <li><a href="../src/foodweb.html">Food Web</a></li>
+            <li><a href="#">Info</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="#"><button>Project Info</button></a>
+      </header>
+  </body>
+  <script src="./renderer.js"></script>
 </html>
