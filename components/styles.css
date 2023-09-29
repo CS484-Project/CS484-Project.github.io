@@ -43,7 +43,7 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover{
+.nav_links a:hover{
     color: #0088a9
 }
 
@@ -58,4 +58,7 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 139, 0.8);
+}
+header{
+    border-bottom: 1px solid lightslategray;
 }
