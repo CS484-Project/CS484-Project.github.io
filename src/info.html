@@ -2,10 +2,15 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
-    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
     <link rel="stylesheet" href="../components/styles.css" />
     <title>Info</title>
+
+    <script>
+        componentDidMount: function onLoad() {
+    twttr.widgets.load()
+    }
+    </script>
+    
   </head>
   <body>
       <header>
@@ -18,12 +23,6 @@
         </nav>
         <a class="cta" href="https://github.com/CS484-Project" target="_blank"><button>Project Info</button></a>
       </header>
-
-        <script>
-            componentDidMount: function onLoad() {
-        twttr.widgets.load()
-        }
-        </script>
 
         <a class="twitter-timeline"
             href="https://twitter.com/cs484project?ref_src=twsrc%5Etfw"
