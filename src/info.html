@@ -19,9 +19,20 @@
         <a class="cta" href="https://github.com/CS484-Project" target="_blank"><button>Project Info</button></a>
       </header>
 
-      <div id="tweetfeed">
-        <!-- <a class="twitter-timeline" href="https://twitter.com/cs484project?ref_src=twsrc%5Etfw">Tweets by cs484project</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
-      </div>
+        <script>
+            componentDidMount: function onLoad() {
+        twttr.widgets.load()
+        }
+        </script>
+
+        <a class="twitter-timeline"
+            href="https://twitter.com/cs484project?ref_src=twsrc%5Etfw"
+            data-width="300"
+            data-height="300">
+            Tweets by cs484project
+        </a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   </body>
   <script src="./renderer.js"></script>
 </html>
