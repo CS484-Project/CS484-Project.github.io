@@ -1,3 +1,11 @@
+:root{
+    --indigo: #274060;
+    --v-sky-blue: #00647d;
+    --sky-blue: #5ED6F2;
+    --off-white: #e8e0e0;
+    --seasalt: #f7f7f6;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
     -webkit-app-region: drag;
@@ -11,15 +19,24 @@ button {
     box-sizing: 0;
     margin: 0;
     padding: 0;
-    background-color: #24252A;
+    background-color: var(--off-white);
 }
 
 li, a , button {
     font-family: "Montserrat", sand-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
+    color: var(--indigo);
     text-decoration: none;
+    background-color: transparent;
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--indigo);
+    height: 20px;
 }
 
 header {
@@ -27,29 +44,35 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: var(--seasalt);
+    height: 2vh;
+    border-bottom: 1px solid var(--indigo);
 }
 
 .nav__links {
     list-style: none;
-
+    background-color: var(--seasalt);
 }
 
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
+    background-color: var(--seasalt);
 }
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
+    background-color: var(--seasalt);
 }
 
 .nav__links li a:hover{
-    color: #0088a9
+    color: var(--v-sky-blue);
 }
 
 button {
     padding: 9px 25px;
-    background-color: rgba(0, 136, 139, 1);
+    background-color: var(--indigo);
+    color: var(--seasalt);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -57,8 +80,22 @@ button {
 }
 
 button:hover {
-    background-color: rgba(0, 136, 139, 0.8);
+    background-color: var(--v-sky-blue);
 }
-header{
-    border-bottom: 1px solid lightslategray;
+
+
+footer{
+    display: flex;
+    border-top: 1px solid var(--indigo);
+}
+
+/** Twitter Timeline CSS **/
+.twitter-timeline{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 50px;
 }
