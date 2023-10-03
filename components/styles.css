@@ -6,6 +6,7 @@
     --seasalt: #f7f7f6;
 }
 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
     -webkit-app-region: drag;
@@ -96,6 +97,6 @@ footer{
     border: none;
     border-radius: 10px;
     overflow: hidden;
-    margin: auto;
+    padding-left: 50px;
     padding-top: 50px;
 }
