@@ -48,6 +48,7 @@ header {
     background-color: var(--seasalt);
     height: 2vh;
     border-bottom: 1px solid var(--indigo);
+    z-index: 10000;
 }
 
 .nav__links {

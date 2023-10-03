@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      'script',
+      'https://www.google-analytics.com/analytics.js',
+      'ga'
+    );
+  </script>
+  <link rel="stylesheet" href="../components/map.css"/>
+  <!-- End Google Analytics -->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <title>GFW Mapbuilder Library</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <link rel="shortcut icon"
+    href="https://wri-sites.s3.amazonaws.com/gfw-mapbuilder.org/library.gfw-mapbuilder.org/1.5.0/favicon.ico">
+</head>
+
+<header>
+        <nav>
+          <ul class="nav__links">
+            <li><a href="../src/index.html">Home</a></li>
+            <li><a href="../src/map-config-index.html">Maps</a></li>
+            <li><a href="../src/foodweb.html">Food Web</a></li>
+            <li><a href="../src/info.html">Info</a></li>
+          </ul>
+        </nav>
+        <a class="cta" href="https://github.com/CS484-Project" target="_blank"><button>Project Info</button></a>
+</header>
+
+<body>
+  <div class="arcgis-container">
+    <div id="root" ></div>
+  </div>
+  <script type="text/javascript"
+    src="https://wri-sites.s3.amazonaws.com/gfw-mapbuilder.org/library.gfw-mapbuilder.org/1.5.0/library-bundle.js"></script>
+</body>
+<script defer type="module">
+  import config from "./map-config.json" assert {type: "json"};
+  console.log(config);
+  const gfwLib = new MapBuilderLoader({ el: 'root', config: config });
+</script>
+
+</html>
