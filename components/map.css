@@ -5,14 +5,3 @@
     --off-white: #e8e0e0;
     --seasalt: #f7f7f6;
 }
-
-/** ArcGIS CSS **/
-.arcgis-container{
-    width: 600px;
-    height: 500px;
-    border: var(--indigo) 2px solid;
-    border-radius: 10px solid var(--indigo);
-    background-color: transparent;
-    align-items: center;
-    justify-content: center;
-}
