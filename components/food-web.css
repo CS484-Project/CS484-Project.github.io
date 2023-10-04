@@ -1,0 +1,25 @@
+:root{
+    --indigo: #274060;
+    --v-sky-blue: #00647d;
+    --sky-blue: #5ED6F2;
+    --off-white: #e8e0e0;
+    --seasalt: #f7f7f6;
+}
+
+.web-container{
+    display: flex;
+    position: relative;
+    top: 50%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--indigo);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.web-container:hover{
+    background-color: var(--v-sky-blue);
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
