@@ -9,8 +9,8 @@
 .web-container{
     display: flex;
     position: relative;
-    top: 50%;
     margin:auto;
+    margin-top: 80px;
     justify-content: center;
     align-items: center;
     background-color: var(--indigo);
@@ -21,5 +21,14 @@
 
 .web-container:hover{
     background-color: var(--v-sky-blue);
-    animation: name duration timing-function delay iteration-count direction fill-mode;
+    animation: rotate 6s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }

@@ -20,7 +20,6 @@ button {
     box-sizing: 0;
     margin: 0;
     padding: 0;
-    background-color: var(--off-white);
 }
 
 li, a , button {
