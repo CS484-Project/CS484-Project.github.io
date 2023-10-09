@@ -50,6 +50,12 @@ header {
     z-index: 10000;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
 .nav__links {
     list-style: none;
     background-color: var(--seasalt);
