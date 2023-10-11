@@ -22,12 +22,12 @@ body, html {
   }
   
   .bgimg-2 {
-    background-image: url("./pictures/snow-sleepy-bear.png");
+    background-image: url("./pictures/babybear.jpg");
     min-height: 400px;
   }
   
   .bgimg-3 {
-    background-image: url("./pictures/sleepy-bear.png");
+    background-image: url("./pictures/bigbear.jpg");
     min-height: 400px;
   }
   
