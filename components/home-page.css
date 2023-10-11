@@ -8,7 +8,7 @@ body, html {
 
 
   
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -29,6 +29,11 @@ body, html {
   .bgimg-3 {
     background-image: url("./pictures/bigbear.jpg");
     min-height: 400px;
+  }
+
+  .bgimg-4 {
+    background-image: url("./pictures/tinybear.jpg");
+    min-height: 100%;
   }
   
   .caption {
