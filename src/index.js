@@ -1,6 +1,9 @@
+/* This page initializes the rendering and preload functions that are built in
+from Electron.js. See below for description of methods */
 const { app, BrowserWindow, ipcMain } = require('electron')
 const path = require('node:path')
 
+/* Creates window utilizing preload script */
 const createWindow = () => {
   const win = new BrowserWindow({
     width: 800,
@@ -25,6 +28,7 @@ app.whenReady().then(() => {
   })
 })
 
+/* Quits app if all windows are closed */
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit()
