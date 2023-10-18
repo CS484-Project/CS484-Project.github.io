@@ -1,5 +1,5 @@
 {
-  "name": "personal-project-1",
+  "name": "forestr",
   "version": "1.0.0",
   "main": "./src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make"
   },
-  "author": "Ben 5'6 Saalberg & Derik Torres",
+  "author": "Ben Saalberg, Derik Torres, Emily Haigh, Quinn Collins",
   "devDependencies": {
     "@electron-forge/cli": "^6.4.2",
     "@electron-forge/maker-deb": "^6.4.2",
