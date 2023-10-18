@@ -13,6 +13,7 @@ const createWindow = () => {
   win.loadFile('./src/index.html')
 }
 
+// ping pong
 app.whenReady().then(() => {
     ipcMain.handle('ping', () => 'pong')
   createWindow()
