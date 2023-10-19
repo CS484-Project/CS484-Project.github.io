@@ -6,6 +6,7 @@
     --seasalt: #f7f7f6;
 }
 
+
 .web-container{
     display: flex;
     position: relative;
@@ -14,65 +15,9 @@
     justify-content: center;
     align-items: center;
     background-color: var(--indigo);
-    height: 500px;
-    width: 500px;
-    border-radius: 50%;
-    background-image: url("./pictures/snow-sleepy-bear.png");
+    border-radius: 15px;
+    height: 90%;
+    width: 90%;
 }
 
-.web-container:hover{
-    background-color: var(--v-sky-blue);
-    animation: rotate 15s infinite linear;
-}
 
-@keyframes rotate{
-    0%{
-        transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(360deg);
-    }
-}
-
-.outer-circle{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--indigo);
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    background-image: url("./pictures/sleepy-bear.png");
-}
-
-.outer-circle:hover{
-    background-color: var(--v-sky-blue);
-    animation: rotate-outer 10s infinite linear;
-}
-
-@keyframes rotate-outer{
-    0%{
-        transform: rotate(360deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-}
-
-.inner-circle{
-    display: flex;
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--indigo);
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    background-image: url("./pictures/sleepy-bear-cub.png");
-}
-
-.outer-circle:hover{
-    background-color: var(--v-sky-blue);
-    animation: rotate-inner 15s infinite linear;
-}

@@ -16,7 +16,7 @@ const createWindow = () => {
   win.loadFile('./src/index.html')
 }
 
-/* Creates window if no windows are loaded on start-up */
+// ping pong
 app.whenReady().then(() => {
     ipcMain.handle('ping', () => 'pong')
   createWindow()
