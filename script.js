@@ -1,13 +1,13 @@
 let headerInfo = `
-<nav>
+    <nav>
           <ul class="nav__links">
             <li><a href="../src/index.html">Home</a></li>
             <li><a href="../src/foodweb.html">Food Web</a></li>
             <li><a href="../src/map.html">Map</a></li>
             <li><a href="../src/info.html">Info</a></li>
           </ul>
-        </nav>
-        <a class="cta" href="../src/projinfo.html"><button>Project Info</button></a>
+    </nav>
+        <a class="cta" href="https://github.com/CS484-Project" target="_blank"><button>Project Info</button></a>
 `
 
 const body = document.getElementsByTagName("BODY")[0];
