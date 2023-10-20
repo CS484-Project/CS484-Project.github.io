@@ -1,3 +1,4 @@
+/* Creates navbar template */
 let headerInfo = `
     <nav>
           <ul class="nav__links">
@@ -10,6 +11,8 @@ let headerInfo = `
         <a class="cta" href="https://github.com/CS484-Project" target="_blank"><button>Project Info</button></a>
 `
 
+/* Adds headerInfo infromation to header, and adds to each page via script
+by inserting using .innerHTML */
 const body = document.getElementsByTagName("BODY")[0];
 const header = document.createElement("header");
 header.id = "header";
