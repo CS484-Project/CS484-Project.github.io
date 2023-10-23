@@ -19,7 +19,6 @@
     "electron": "^26.2.1"
   },
   "dependencies": {
-    "bootstrap": "^5.3.2",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
