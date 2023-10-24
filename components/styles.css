@@ -4,12 +4,33 @@
     --sky-blue: #5ED6F2;
     --off-white: #e8e0e0;
     --seasalt: #f7f7f6;
+
+    --midnight: #454d66;
+    --mint-ivy: #309975;
+    --lime: #58b368;
+    --lemon: #dad873;
+    --chamomile: #efeeb4;
+
+    --fir: #36492e;
+    --fir-dark: rgb(25, 33, 22);
+    --medium-brown: #4d6941;
+    --cream-brown: #eccca5;
+    --new-cream-brown: hsl(33, 67%, 86%);
+    --orange: #cc5500;
+
+    --header: var(--fir-dark);
+    --fg: ;
+    --bg: var(--new-cream-brown) ;
+    --button: var(--orange);
+    --text-color: var(--seasalt);
+    --text-color-hover: var(--lime);
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap');
 body {
     -webkit-app-region: drag;
+    background-color: var(--cream-brown);
 }
 
 button {
@@ -26,7 +47,7 @@ li, a , button {
     font-family: "Montserrat", sand-serif;
     font-weight: 500;
     font-size: 16px;
-    color: var(--indigo);
+    color: var(--text-color);
     text-decoration: none;
     background-color: transparent;
 }
@@ -35,18 +56,19 @@ li, a , button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--indigo);
     height: 20px;
+
 }
 
 header {
+    position:sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: var(--seasalt);
+    background-color: var(--header);
     height: 2vh;
-    border-bottom: 1px solid var(--indigo);
+    border-bottom: 4px solid var(--lime);
     z-index: 10000;
 }
 
@@ -58,28 +80,25 @@ header {
 
 .nav__links {
     list-style: none;
-    background-color: var(--seasalt);
 }
 
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
-    background-color: var(--seasalt);
 }
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
-    background-color: var(--seasalt);
 }
 
 .nav__links li a:hover{
-    color: var(--v-sky-blue);
+    color: var(--text-color-hover);
 }
 
 button {
     padding: 9px 25px;
-    background-color: var(--indigo);
-    color: var(--seasalt);
+    background-color: var(--button);
+    color: var(--text-color);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -87,13 +106,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--v-sky-blue);
-}
-
-
-footer{
-    display: flex;
-    border-top: 1px solid var(--indigo);
+    background-color: var(--text-color-hover);
 }
 
 /** Twitter Timeline CSS **/
