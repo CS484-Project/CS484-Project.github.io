@@ -1,23 +1,56 @@
 :root{
-    --indigo: #274060;
-    --v-sky-blue: #00647d;
-    --sky-blue: #5ED6F2;
-    --off-white: #e8e0e0;
-    --seasalt: #f7f7f6;
+    --midnight: #454d66;
+    --mint-ivy: #309975;
+    --lime: #58b368;
+    --lemon: #dad873;
+    --chamomile: #efeeb4;
 }
 
+body{
+    background-color: var(--chamomile);
+}
 
 .web-container{
     display: flex;
+    flex-direction: column;
     position: relative;
     margin:auto;
-    margin-top: 80px;
+    margin-top: 45px;
     justify-content: center;
     align-items: center;
-    background-color: var(--indigo);
-    border-radius: 15px;
-    height: 90%;
-    width: 90%;
+    background-color: transparent;
+    height: 80vh;
+    width: 90vw;
 }
+
+.web-level{
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 10vh;
+    border: var(--midnight) 1px solid;
+    margin:.5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-level-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lime);
+    width: 9vw;
+    height: 10vh;
+    border-radius: 50%;
+}
+
+.web-level-item:hover{
+    cursor: pointer;
+}
+
+.web-level:hover{
+    background-color: var(--lemon);
+}
+
 
 
