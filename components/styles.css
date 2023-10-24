@@ -13,13 +13,15 @@
 
     --fir: #36492e;
     --medium-brown: #4d6941;
+    --cream-brown: #eccca5;
+    --orange: #cc5500;
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
     -webkit-app-region: drag;
-    background-color: var(--medium-brown);
+    background-color: var(--cream-brown);
 }
 
 button {
@@ -87,7 +89,7 @@ header {
 
 button {
     padding: 9px 25px;
-    background-color: var(--indigo);
+    background-color: var(--orange);
     color: var(--seasalt);
     border: none;
     border-radius: 50px;
@@ -96,7 +98,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--v-sky-blue);
+    background-color: var(--lemon);
 }
 
 /** Twitter Timeline CSS **/

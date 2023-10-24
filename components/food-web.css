@@ -20,7 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 80vh;
-    width: 90vw;
+    width: 80vw;
     border-color: #309975 1px solid;
     border-radius: 10px;
 }
@@ -28,7 +28,7 @@ body{
 .web-level{
     display: flex;
     flex-direction: row;
-    width: 90vw;
+    width: 75vw;
     height: 15vh;
     justify-content: center;
     align-items: center;
@@ -43,6 +43,7 @@ body{
     width: 90px;
     height: 90px;
     border-radius: 50%;
+    margin: 0 10px;
 }
 
 .web-level-item:hover{
