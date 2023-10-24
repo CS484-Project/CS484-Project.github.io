@@ -10,12 +10,16 @@
     --lime: #58b368;
     --lemon: #dad873;
     --chamomile: #efeeb4;
+
+    --fir: #36492e;
+    --medium-brown: #4d6941;
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 body {
     -webkit-app-region: drag;
+    background-color: var(--medium-brown);
 }
 
 button {
@@ -43,15 +47,16 @@ li, a , button {
     align-items: center;
     background-color: var(--mint-ivy);
     height: 20px;
-    position: sticky;
+
 }
 
 header {
+    position:sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: var(--midnight);
+    background-color: var(--fir);
     height: 2vh;
     border-bottom: 1px solid var(--indigo);
     z-index: 10000;
@@ -65,22 +70,19 @@ header {
 
 .nav__links {
     list-style: none;
-    background-color: var(--midnight);
 }
 
 .nav__links li {
     display: inline-block;
     padding: 0px 20px;
-    background-color: var(--midnight);
 }
 
 .nav__links li a {
     transition: all 0.3s ease 0s;
-    background-color: var(--midnight);
 }
 
 .nav__links li a:hover{
-    color: var(--v-sky-blue);
+    color: var(--lime);
 }
 
 button {

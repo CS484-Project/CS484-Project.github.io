@@ -4,10 +4,11 @@
     --lime: #58b368;
     --lemon: #dad873;
     --chamomile: #efeeb4;
+    --sea-salt:  #f7f7f6;
 }
 
 body{
-    background-color: var(--chamomile);
+    background-color: var(--sea-salt);
 }
 
 .web-container{
@@ -18,29 +19,29 @@ body{
     margin-top: 45px;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
     height: 80vh;
     width: 90vw;
+    border-color: #309975 1px solid;
+    border-radius: 10px;
 }
 
 .web-level{
     display: flex;
     flex-direction: row;
     width: 90vw;
-    height: 10vh;
-    border: var(--midnight) 1px solid;
-    margin:.5px;
+    height: 15vh;
     justify-content: center;
     align-items: center;
 }
 
 .web-level-item{
+    box-sizing: content-box;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--lime);
-    width: 9vw;
-    height: 10vh;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
 }
 
@@ -48,9 +49,25 @@ body{
     cursor: pointer;
 }
 
-.web-level:hover{
-    background-color: var(--lemon);
+/** Level Colors **/
+
+.pastel-red{
+    background-color: #fad1bf;
 }
 
+.pastel-tan{
+    background-color: #cec19f;
+}
 
+.pastel-blue{
+    background-color: #a3d4eb;
+}
+
+.pastel-lime{
+    background-color: #e5e991;
+}
+
+.pastel-purple{
+    background-color: #bcc0e3;
+}
 
