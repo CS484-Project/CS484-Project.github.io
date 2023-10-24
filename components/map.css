@@ -5,3 +5,25 @@
     --off-white: #e8e0e0;
     --seasalt: #f7f7f6;
 }
+
+#instructions {
+    position: left;
+    padding: 25px;
+    column-span: 1;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+#map {
+    margin-right: 25px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+iframe {
+    border-radius: 10px;
+}

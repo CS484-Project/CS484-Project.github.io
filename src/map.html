@@ -5,10 +5,53 @@
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
     <link rel="stylesheet" href="../components/styles.css" />
+    <link rel="stylesheet" href="../components/map.css" />
     <title>Forestr: Deforestation Map</title>
   </head>
   <body>
-      <iframe src="./map-config-index.html" width="100%" height="1000vh" style="overflow-y: hidden;"></iframe>
+
+    <div id="grid">
+      <div id="instructions">
+        <h1>How to Use the Map</h1>
+        <br>
+        <h2>General Use:
+          <p> 
+            <ol>
+            <li>The target our research was Alaska, so let's 
+            click and drag on the map up and to the left a 
+            bit until we find Alaska</li>
+            <br>
+            <li>Once you've found Alaska, we can navigate over
+              the 'Land Cover Dynamics' tab on the left hand
+              side of the map
+            </li>
+            <br>
+            <li>Now we can select 'Land Cover Dynamics' and
+              click on the 'Tree Cover Loss' button so it
+              slides to the right
+            </li>
+            <br>
+            <li>At this point a bunch of red dots should appear
+              on the map! This represents large clusters of
+              tree area coverage when measured within the given
+              year on the timeline. However! It is important
+              to note that Tree Cover Loss does not equal
+              deforestation - but, it is a large contributing factor
+            </li>
+            </ol>
+          </p>
+        </h2>
+      </div>
+
+      <div id="map">
+        <iframe
+        src="./map-config-index.html"
+        width="100%" 
+        height="700vh"
+        style="overflow-y: hidden; border: 10px solid black;"></iframe>
+      </div>
+    </div>
+  
   </body>
   <script src="../src/script.js"></script>
   <script src="./renderer.js"></script>
