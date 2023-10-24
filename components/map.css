@@ -4,6 +4,26 @@
     --sky-blue: #5ED6F2;
     --off-white: #e8e0e0;
     --seasalt: #f7f7f6;
+
+    --midnight: #454d66;
+    --mint-ivy: #309975;
+    --lime: #58b368;
+    --lemon: #dad873;
+    --chamomile: #efeeb4;
+
+    --fir: #36492e;
+    --fir-dark: rgb(25, 33, 22);
+    --medium-brown: #4d6941;
+    --cream-brown: #eccca5;
+    --new-cream-brown: hsl(33, 67%, 86%);
+    --orange: #cc5500;
+
+    --header: var(--fir-dark);
+    --fg: ;
+    --bg: var(--new-cream-brown) ;
+    --button: var(--orange);
+    --text-color: var(--seasalt);
+    --text-color-hover: var(--lime);
 }
 
 #instructions {
@@ -38,6 +58,6 @@ hr {
     width: 15%;
 }
 
-li {
-    color: black;
+li, h1, h2, p {
+    color: var(--cream-brown);
 }

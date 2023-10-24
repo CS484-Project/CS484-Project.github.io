@@ -30,7 +30,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap');
 body {
     -webkit-app-region: drag;
-    background-color: var(--cream-brown);
+    background-color: rgb(35, 46, 31);
 }
 
 button {
@@ -61,14 +61,14 @@ li, a , button {
 }
 
 header {
-    position:sticky;
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
     background-color: var(--header);
     height: 2vh;
-    border-bottom: 4px solid var(--lime);
+    border-bottom: 1px solid rgb(27, 27, 27);
     z-index: 10000;
 }
 
