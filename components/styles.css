@@ -12,9 +12,18 @@
     --chamomile: #efeeb4;
 
     --fir: #36492e;
+    --fir-dark: rgb(25, 33, 22);
     --medium-brown: #4d6941;
     --cream-brown: #eccca5;
+    --new-cream-brown: hsl(33, 67%, 86%);
     --orange: #cc5500;
+
+    --header: var(--fir-dark);
+    --fg: ;
+    --bg: var(--new-cream-brown) ;
+    --button: var(--orange);
+    --text-color: var(--seasalt);
+    --text-color-hover: var(--lime);
 }
 
 
@@ -38,7 +47,7 @@ li, a , button {
     font-family: "Montserrat", sand-serif;
     font-weight: 500;
     font-size: 16px;
-    color: var(--seasalt);
+    color: var(--text-color);
     text-decoration: none;
     background-color: transparent;
 }
@@ -47,7 +56,6 @@ li, a , button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--mint-ivy);
     height: 20px;
 
 }
@@ -58,9 +66,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    background-color: var(--fir);
+    background-color: var(--header);
     height: 2vh;
-    border-bottom: 1px solid var(--indigo);
+    border-bottom: 4px solid var(--lime);
     z-index: 10000;
 }
 
@@ -84,13 +92,13 @@ header {
 }
 
 .nav__links li a:hover{
-    color: var(--lime);
+    color: var(--text-color-hover);
 }
 
 button {
     padding: 9px 25px;
-    background-color: var(--orange);
-    color: var(--seasalt);
+    background-color: var(--button);
+    color: var(--text-color);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -98,7 +106,7 @@ button {
 }
 
 button:hover {
-    background-color: var(--lemon);
+    background-color: var(--text-color-hover);
 }
 
 /** Twitter Timeline CSS **/

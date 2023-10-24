@@ -5,6 +5,7 @@
     --lemon: #dad873;
     --chamomile: #efeeb4;
     --sea-salt:  #f7f7f6;
+    --fir: #36492e;
 }
 
 body{
@@ -21,15 +22,15 @@ body{
     align-items: center;
     height: 80vh;
     width: 80vw;
-    border-color: #309975 1px solid;
+    border: var(--fir) 2px solid;
     border-radius: 10px;
 }
 
 .web-level{
     display: flex;
     flex-direction: row;
-    width: 75vw;
-    height: 15vh;
+    width: inherit;
+    height: inherit;
     justify-content: center;
     align-items: center;
 }
