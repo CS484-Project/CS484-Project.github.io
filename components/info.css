@@ -5,8 +5,9 @@
     width: 325px;
 }
 
-#cover-image {
-    height: 300px;
+#logo {
+    justify-content: center;
+    margin-left: 627px
 }
 
 hr {
@@ -30,14 +31,8 @@ p {
     padding-right: 10px;
 }
 
-.column {
-    float: left;
-    width: 50%;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
