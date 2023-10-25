@@ -26,6 +26,12 @@
     --text-color-hover: var(--lime);
 }
 
+@font-face {
+    font-family: "Belwe";
+    src: url(../components/fonts/Belwe\ Bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&display=swap');
 body {
