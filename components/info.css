@@ -6,13 +6,38 @@
 }
 
 #cover-image {
-    height: 325px;
+    height: 300px;
 }
 
 hr {
     background: #cc5500;
     border-color: #cc5500;
+    margin-top: 1px;
     margin-bottom: 10px;
     height: 1px;
     width: 75% !important;
 }
+
+h1 {
+    color: var(--cream-brown);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: var(--cream-brown);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
