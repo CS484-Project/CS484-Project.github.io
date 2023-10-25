@@ -2,5 +2,17 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 325px;
+}
+
+#cover-image {
+    height: 325px;
+}
+
+hr {
+    background: #cc5500;
+    border-color: #cc5500;
+    margin-bottom: 10px;
+    height: 1px;
+    width: 75% !important;
 }
