@@ -31,8 +31,26 @@ p {
     padding-right: 10px;
 }
 
-  #grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.column-left {
+    flex: 50%;
+    margin-right: 60px
+  }
+
+.column-right {
+    flex: 50%;
 
 }
+
+#columns {
+    display: flex;
+    width: 70vw;
+    height: 50vh;
+    padding-top: 30px;
+    margin-left: 220px;
+    margin-right: 0px;
+}
+  
+  /* Clear floats after the columns */
+  .row {
+    display: flex;
+  }
