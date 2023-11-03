@@ -25,7 +25,7 @@ body{
     border: var(--fir) 2px solid;
     border-radius: 10px;
 }
-
+ 
 .web-level{
     display: flex;
     flex-direction: row;

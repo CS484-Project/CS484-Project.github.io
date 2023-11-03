@@ -7,7 +7,7 @@
 
 #logo {
     justify-content: center;
-    margin-left: 627px
+    margin-left: 627px;
 }
 
 hr {
@@ -48,6 +48,27 @@ p {
     padding-top: 30px;
     margin-left: 220px;
     margin-right: 0px;
+}
+
+.img-format{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lime);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.div-center-format{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
 }
   
   /* Clear floats after the columns */
