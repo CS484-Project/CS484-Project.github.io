@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" name="viewport" content="device-width"/>
+    <meta charset="UTF-8" name="viewport" content="device-width, initial-scale = 1"/>
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"/> -->
     <link rel="stylesheet" href="../components/food-web.css"/>
     <link rel="stylesheet" href="../components/styles.css" />
+    <link rel = "stylesheet" href = "../components/modal.css"/>
     <title>Forestr: Foodweb</title>
+    <script src = "./modal-script.js"></script>
   </head>
   <body>
 
   <div class="web-container">
     <div class="web-level pastel-red" style="border-radius: 10px 10px 0px 0px !important;">
-      <img role="button" src = "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg" class="web-image web-level-item">
-      <img role="button" src = "../components/pictures/jonah.png" class="web-image web-level-item">
+      <img role="button" id = "orca" class="web-image web-level-item" onclick="callModal(this.id)">
+      <img role="button" id="jonah" class="web-image web-level-item pastel-purple" onclick="callModal(this.id)">
       <img role="button" src = "https://www.nps.gov/common/uploads/akr/park/katm/4232EA5F-0131-1151-81FB97FB04177D1F/4232EA5F-0131-1151-81FB97FB04177D1F.jpg?autorotate=false&maxWidth=1300&maxHeight=1020" class="web-image web-level-item">
     </div>
 
@@ -39,6 +41,7 @@
   </div>
 
   </body>
+  <script src="./modal-script.js" type = "module"></script>
   <script src="../src/script.js"></script>
   <script src="./renderer.js"></script>
 </html>

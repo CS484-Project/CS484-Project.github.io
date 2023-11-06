@@ -8,5 +8,10 @@
         "name": "example",
         "information": "example",
         "image": "image-url"
+    },
+    "orca":{
+        "name": "Orca",
+        "information": "The Orca is considered to be a part of the porpose family. This means that the Orca is one of the largest dolphins.",
+        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
     }
 }
