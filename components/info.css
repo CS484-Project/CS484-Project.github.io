@@ -1,19 +1,16 @@
 .center {
-    display: block;
-    margin: auto;
-    width: 325px;
+    display: flex;
+    margin: 0 auto;
+    
 }
 
 #logo {
     justify-content: center;
-    margin-left: 627px;
 }
 
 hr {
     background: #cc5500;
     border-color: #cc5500;
-    margin-top: 1px;
-    margin-bottom: 10px;
     height: 1px;
     width: 75% !important;
 }
@@ -22,6 +19,7 @@ h1 {
     color: var(--cream-brown);
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: center;
 }
 
 p {
@@ -32,11 +30,12 @@ p {
 
 .column-left {
     flex: 50%;
-    margin-right: 60px
+    margin-bottom: 5px;
   }
 
 .column-right {
     flex: 50%;
+    margin-bottom: 5px;
 
 }
 
@@ -44,9 +43,6 @@ p {
     display: flex;
     width: 70vw;
     height: 20vh;
-    padding-top: 30px;
-    margin-left: 220px;
-    margin-right: 0px;
 }
 
 .img-format{
@@ -95,4 +91,10 @@ figcaption {
     color: var(--cream-brown);
     padding-left: 10px;
     padding-right: 10px;
+    padding: 10px;
+}
+
+#developer-profiles {
+    display: flex;
+    flex-direction: row;
 }
