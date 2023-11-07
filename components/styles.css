@@ -101,6 +101,12 @@ header {
     color: var(--text-color-hover);
 }
 
+a.active {
+    background-color: transparent;
+    color: var(--text-color-hover);
+    cursor: default;
+}
+
 button {
     padding: 9px 25px;
     background-color: var(--button);

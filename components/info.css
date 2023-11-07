@@ -1,20 +1,16 @@
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 325px;
+    display: flex;
+    margin: 0 auto;
+    
 }
 
 #logo {
     justify-content: center;
-    margin-left: 627px
 }
 
 hr {
     background: #cc5500;
     border-color: #cc5500;
-    margin-top: 1px;
-    margin-bottom: 10px;
     height: 1px;
     width: 75% !important;
 }
@@ -23,6 +19,7 @@ h1 {
     color: var(--cream-brown);
     padding-top: 20px;
     padding-bottom: 20px;
+    justify-content: center;
 }
 
 p {
@@ -31,8 +28,74 @@ p {
     padding-right: 10px;
 }
 
-  #grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.column-left {
+    flex: 50%;
+    margin-bottom: 5px;
+  }
 
+.column-right {
+    flex: 50%;
+    margin-bottom: 5px;
+
+}
+
+#columns {
+    display: flex;
+    width: 70vw;
+    height: 20vh;
+}
+
+.img-format{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lime);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.div-center-format{
+    display: flex;
+    flex-direction: row;
+    width: inherit;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+  
+  /* Clear floats after the columns */
+  .row {
+    display: flex;
+  }
+
+  .web-level-item {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lime);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: var(--cream-brown);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 10px;
+}
+
+#developer-profiles {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px 0px 20px;
 }
