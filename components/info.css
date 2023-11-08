@@ -13,6 +13,7 @@ hr {
     border-color: #cc5500;
     height: 1px;
     width: 75% !important;
+    margin-top: 15px !important;
 }
 
 h1 {
@@ -24,8 +25,9 @@ h1 {
 
 p {
     color: var(--cream-brown);
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .column-left {
