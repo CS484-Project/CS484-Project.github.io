@@ -6,4 +6,4 @@ All future inquiries regarding the project and sourecode can be forwarded toward
 Computer Science department
 
 **Visit at**
-- https://cs484-project.github.io/src/index.html
+- (https://cs484-project.github.io/src/index.html)
