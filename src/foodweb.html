@@ -9,13 +9,15 @@
     <link rel = "stylesheet" href = "../components/modal.css"/>
     <title>Forestr: Foodweb</title>
 
-    <script type="text/javascript" src="./animals.json"></script>
+    <script defer type="module">
+      import animals from './animals.json' assert { type: "json" };
+      console.log(animals);
+    </script>
 
     <script>
 
       var modal;
       var btn;
-      var span = document.getElementsByClassName("close")[0];
 
       function openModal(id){
         btn = document.getElementById(id);
@@ -34,9 +36,6 @@
         }
       };
 
-      span.onclick = function() {
-        modal.style.display = "none";
-      };
 
     </script>
   </head>
@@ -49,9 +48,9 @@
         <!-- MODAL -->
         <div id="orca-modal" class = "modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
             <p>
               Orca Info...
+              <img src = animals[1].image>
             </p>
           </div>
         </div>
@@ -60,9 +59,8 @@
         <!-- MODAL -->
         <div id="jonah-modal" class = "modal">
           <div class="modal-content">
-            <span class="close">&times;</span>
             <p>
-              Jonah Info...
+              Jonah Info... {animals[1].name}
             </p>
           </div>
         </div>
@@ -93,5 +91,24 @@
 
   </body>
   <script src="../src/script.js"></script>
-  <script src="./renderer.js"></script>
+
+  <script>
+
+    let animals =
+    [
+      {
+        "name": "orca",
+        "information": "The orca is a porpose.",
+        "image": "https://www.nps.gov/common/uploads/akr/park/katm/4232EA5F-0131-1151-81FB97FB04177D1F/4232EA5F-0131-1151-81FB97FB04177D1F.jpg?autorotate=false&maxWidth=1300&maxHeight=1020"
+      },
+      {
+        "name": "Jonah",
+        "information": "This is Jonah he lifts.",
+        "image": "../components/pictures/jonah.png"
+      }
+    ]
+    console.log(animals);
+
+  </script>
+
 </html>

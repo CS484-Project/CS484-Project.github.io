@@ -13,7 +13,7 @@ body, html {
     font-style: normal;
 }
   
-  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10, .bgimg-11{
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -43,37 +43,37 @@ body, html {
 
   .bgimg-5 {
     background-image: url("./pictures/RoadConstruction.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-6 {
     background-image: url("./pictures/OilDrilling.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-7 {
     background-image: url("./pictures/Logging.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-8 {
     background-image: url("./pictures/Bycatching.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-9 {
     background-image: url("./pictures/Deforestation.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-10 {
     background-image: url("./pictures/MeltingIce.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
 
   .bgimg-11 {
     background-image: url("./pictures/Help.jpeg");
-    min-height: 400px;
+    min-height: 100%;
   }
   
   .caption {
