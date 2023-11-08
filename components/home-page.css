@@ -40,6 +40,41 @@ body, html {
     background-image: url("./pictures/tinybear.jpg");
     min-height: 100%;
   }
+
+  .bgimg-5 {
+    background-image: url("./pictures/RoadConstruction.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-6 {
+    background-image: url("./pictures/OilDrilling.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-7 {
+    background-image: url("./pictures/Logging.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-8 {
+    background-image: url("./pictures/Bycatching.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-9 {
+    background-image: url("./pictures/Deforestation.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-10 {
+    background-image: url("./pictures/MeltingIce.jpeg");
+    min-height: 400px;
+  }
+
+  .bgimg-11 {
+    background-image: url("./pictures/Help.jpeg");
+    min-height: 400px;
+  }
   
   .caption {
     font: 'Belwe';
