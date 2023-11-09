@@ -9,11 +9,11 @@
 }
 
 hr {
+    display: flex;
     background: #cc5500;
     border-color: #cc5500;
     height: 1px;
     width: 75% !important;
-    margin-top: 15px !important;
 }
 
 h1 {
@@ -25,9 +25,8 @@ h1 {
 
 p {
     color: var(--cream-brown);
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .column-left {
@@ -45,6 +44,8 @@ p {
     display: flex;
     width: 70vw;
     height: 20vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .img-format{
@@ -98,5 +99,5 @@ figcaption {
 #developer-profiles {
     display: flex;
     flex-direction: row;
-    margin: 0px 00px 40px 40px;
+    margin: 0px 40px 0px 40px;
 }
