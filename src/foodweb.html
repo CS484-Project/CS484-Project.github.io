@@ -9,13 +9,15 @@
     <link rel = "stylesheet" href = "../components/modal.css"/>
     <title>Forestr: Foodweb</title>
 
-    <script defer type="module">
+    <script type = "module">
       import animals from './animals.json' assert { type: "json" };
       console.log(animals);
+      var theAnimals = [];
+      globalThis.theAnimals = animals;
     </script>
 
     <script>
-
+      console.log(theAnimals);
       var modal;
       var btn;
 
@@ -28,6 +30,17 @@
         } else {
           modal.style.display = "none";
         }
+        loadModal(id);
+      }
+
+      function loadModal(id){
+
+        var info = 
+        `
+        <h1> Jonah </h1>
+        <p> Jonah is an amazing animal rawr </p>
+        `
+        document.getElementById(id+"-div").innerHTML = info;
       }
 
       window.onclick = function(event) {
@@ -48,10 +61,7 @@
         <!-- MODAL -->
         <div id="orca-modal" class = "modal">
           <div class="modal-content">
-            <p>
-              Orca Info...
-              <img src = animals[1].image>
-            </p>
+            <div id = "orca-div"></div>
           </div>
         </div>
 
@@ -59,9 +69,7 @@
         <!-- MODAL -->
         <div id="jonah-modal" class = "modal">
           <div class="modal-content">
-            <p>
-              Jonah Info... {animals[1].name}
-            </p>
+            <div id = "jonah-div"></div>
           </div>
         </div>
 
@@ -91,24 +99,5 @@
 
   </body>
   <script src="../src/script.js"></script>
-
-  <script>
-
-    let animals_2 =
-    [
-      {
-        "name": "orca",
-        "information": "The orca is a porpose.",
-        "image": "https://www.nps.gov/common/uploads/akr/park/katm/4232EA5F-0131-1151-81FB97FB04177D1F/4232EA5F-0131-1151-81FB97FB04177D1F.jpg?autorotate=false&maxWidth=1300&maxHeight=1020"
-      },
-      {
-        "name": "Jonah",
-        "information": "This is Jonah he lifts.",
-        "image": "../components/pictures/jonah.png"
-      }
-    ]
-    console.log(animals_2);
-
-  </script>
 
 </html>

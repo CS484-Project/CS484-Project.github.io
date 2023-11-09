@@ -8,5 +8,15 @@
         "name": "Orca",
         "information": "The Orca is considered to be a part of the porpose family. This means that the Orca is one of the largest dolphins.",
         "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
+    },
+    {
+        "name": "Dolphin",
+        "information": "Dolphins are very intelligent animals. They are part of the toothed whale family.",
+        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
+    },
+    {
+        "name": "Whale",
+        "information": "Whales are the largest animals on earth. They are part of the baleen whale family.",
+        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
     }
 ]
