@@ -8,23 +8,28 @@
     <link rel="stylesheet" href="../components/styles.css" />
     <link rel = "stylesheet" href = "../components/modal.css"/>
     <title>Forestr: Foodweb</title>
-
+<!-- 
     <script type = "module">
       import animals from './animals.json' assert { type: "json" };
       console.log(animals);
-      var theAnimals = [];
-      globalThis.theAnimals = animals;
-    </script>
+    </script> -->
 
     <script>
-      console.log(theAnimals);
+      async function getData(){
+        const response = await fetch('../src/animals.json');
+        const data = await response.json();
+        return data;
+      }
+
+      const animal = getData();
+      console.log(animal);
+
       var modal;
       var btn;
 
       function openModal(id){
         btn = document.getElementById(id);
         modal = document.getElementById(id + "-modal");
-        span = document.getElementsByClassName("close")[0];
         if (modal.style.display == "none") {
           modal.style.display = "block";
         } else {
@@ -34,11 +39,11 @@
       }
 
       function loadModal(id){
-
-        var info = 
+        const animalInfo = data.find(data => data.name === id);
+        const info = 
         `
-        <h1> Jonah </h1>
-        <p> Jonah is an amazing animal rawr </p>
+        <h1> ${animalInfo.name} </h1>
+        <p> ${animalInfo.information} </p>
         `
         document.getElementById(id+"-div").innerHTML = info;
       }
