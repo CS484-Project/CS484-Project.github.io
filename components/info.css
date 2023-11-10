@@ -14,6 +14,11 @@ hr {
     border-color: #cc5500;
     height: 1px;
     width: 75% !important;
+<<<<<<< Updated upstream
+=======
+    margin-top: 15px !important;
+    clear: both;
+>>>>>>> Stashed changes
 }
 
 h1 {
