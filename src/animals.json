@@ -5,18 +5,66 @@
         "image": "image-url"
     },
     {
-        "name": "Orca",
-        "information": "The Orca is considered to be a part of the porpose family. This means that the Orca is one of the largest dolphins.",
-        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
+        "name": "Native Plants",
+        "information": "One of the most direct and obvious group of critters to be impacted by deforestation and associated compounding factors are native plants. As trees are cut down for logging and vegetation is cleared for road construction, these plants are directly devastated. This type of destruction can also clear a path for invasive, non native species to take over. The harming of native Alaskan plants has consequences that spread all across the food web, resulting in nasty bottom-up effects.",
+        "image": "../components/picturesNativePlants.jpeg",
+        "source": "https://www.fs.usda.gov/Internet/FSE_DOCUMENTS/stelprdb5320150.pdf",
+        "picture-source": "https://www.graylinealaska.com/blog/edible-alaska-plants/"
     },
     {
-        "name": "Dolphin",
-        "information": "Dolphins are very intelligent animals. They are part of the toothed whale family.",
-        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
+        "name": "Lagomorpha",
+        "information": "Members of the order Lagomorpha are impacted by loss of habitat and food thanks to deforestation. Lagomorphs are herbivores which eat grasses and other small plants. As a result, their food source is easily disturbed by human activity. Some species of note include Alaskan hares and collared pika.",
+        "image": "../components/Lagomorpha.jpeg",
+        "source": "https://www.adfg.alaska.gov/index.cfm?adfg=alaskahare.printerfriendly",
+        "picture-source": "https://en.wikipedia.org/wiki/Arctic_hare"
     },
     {
-        "name": "Whale",
-        "information": "Whales are the largest animals on earth. They are part of the baleen whale family.",
-        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00824673_livihr.jpg"
+        "name": "Ungulates",
+        "information": "Ungulates in Alaska suffer from forest disturbances due to loss of food. As plants grow back after disturbance, their densities change, altering the availability and quality of food. Also, deforestation and logging completely destroys ungulate habitat, causing them to have to move in search of shelter and food. Habitat and food loss in other areas can also drive invasive species, such as elk, into Alaskan wilderness, increasing competition for native ungulates. Some native ungulates greatly impacted in Alaska are moose, caribou, sitka deer, black tailed deer, bison, mountain goats, dall sheep, and reindeer.",
+        "image": "../components/picturesUngulates.jpeg",
+        "source": "https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.14481#:~:text=With%20post%2Ddisturbance%20forest%20development,availability%20and%20quality%20for%20ungulates",
+        "picture-source": "https://www.alaskaphotographics.com/alaska-photo-articles/caribou-photos/"
+    },
+    {
+        "name": "Bears",
+        "information": "Bears in Alaska are suffering due to habitat loss caused by deforestation and its climate effects. As logging and road construction continue, bear habitat is fragmented into small, disconnected areas which cannot provide the space and food necessary for bears to survive. As the Earth warms, sea ice begins to melt, which has a large impact on polar bears specifically, forcing them to travel farther and farther south in order to find food. These two issues can also cause bears to venture closer and closer to humans, putting both bear and human at risk. Polar bears are also impacted by oil drilling, as contact with oil spills can reduce their insulation, forcing them to use more energy to maintain temperature. Some species heavily impacted in Alaska in addition to polar bears are grizzly, kodiak, and black bears.",
+        "image": "../components/picturesBear.jpeg",
+        "source": "https://www.endangered.org/animals/grizzly-bear/#:~:text=As%20their%20habitat%20was%20destroyed,our%20unique%20Western%20wildlife%20heritage.; https://www.arcticwwf.org/wildlife/polar-bear/polar-bear-threats/; https://www.worldwildlife.org/species/brown-bear",
+        "picture-source": "https://www.discover-the-world.com/destinations/alaska-holidays/bear-watching/"
+    },
+    {
+        "name": "Wolves",
+        "information": "Wolves in Alaska have suffered dramatically from habitat loss caused by deforestation. Wolf pack territories are usually around 200 square miles, which means that wolves require a lot of unfragmented forest to survive. Loss of habitat due to deforestation causes increased competition amongst wolves, leading to escalating violence and food scarcity. One specific endangered species of wolf in Alaska that is greatly impacted by human intervention and deforestation is the Alexander Archipelago Wolf. In fact, their numbers fell by 60% in just one year in the Prince of Wales Island area.",
+        "image": "../components/picturesWolf.jpg",
+        "source": "https://www.greenpeace.org/usa/forests/alaska/#:~:text=Save%20the%20Alexander%20Archipelago%20Wolf&text=This%20rare%20species%2C%20found%20only,its%20prey%2C%20and%20its%20life",
+        "picture-source": "https://defenders.org/blog/2023/09/path-forward-alaskas-alexander-archipelago-wolves"
+    },
+    {
+        "name": "Sea Birds",
+        "information": "Sea birds in Alaska are greatly impacted by the loss of sea ice and rising ocean temperatures that are exacerbated by deforestation and pollution. This climate change causes reproductive failure, increases in mortality, and migratory pattern alteration for many species. Also, algal blooms caused by global warming have been known to kill seabirds via the toxins that they produce. Unfortunately, every year since 2015 there has been an enormous mass death of seabirds in Alaska. Some affected species include murres, puffins, fulmars, shearwaters, and auklets.",
+        "image": "../components/picturesSeaBird.jpeg",
+        "source": "https://www.climatehubs.usda.gov/hubs/northwest/topic/climate-change-and-wild-foods-alaska#:~:text=Impacts%20to%20Arctic%20Seabirds%20and%20Marine%20Mammals&text=Harvested%20seabirds%20and%20marine%20mammals,declining%20due%20to%20climate%20change",
+        "picture-source": "https://www.allaboutbirds.org/guide/Horned_Puffin/id"
+    },
+    {
+        "name": "Fish",
+        "information": "The fishes in Alaska are heavily impacted by bycatch and the melting ice. As the eastern Bering Sea warms up, sea ice is declining. The production of pollock, cod, and possibly other species is likely to diminish, meaning that not only will the fish species decline, but so will the local fisheries. For example, research has indicated that Alaskan salmon growth rates and survival has reduced as a result of warmer temperatures. Also the welfare of the salmon can be impacted by a reduction in ice cover over water ways. This goes without saying that the appearance of algal blooms have been discoordinated from the natural pattern which could result in a lack of animal plankton (an important food source for fishes).",
+        "image": "../components/picturesFish.jpg",
+        "source": "https://www.tandfonline.com/doi/full/10.1080/15230430.2021.1974668; https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/4f3dp19kqu_Effect_of_Climate_Change_on_Actic_Fish_fact_sheet.pdf",
+        "picture-source": "https://www.nationalfisherman.com/alaska/alaska-salmon-returns-down-87-percent-as-bristol-bay-sockeye-harvest-soars"
+    }
+    {
+        "name": "Zooplankton",
+        "information": "Zooplankton feed off of the algae that grows underneath sea ice. However, as sea ice rapidly melts and disappears, zooplankton lose this source of food and begin to starve. Loss of zooplankton causes disastrous bottom-up consequences for animals starting with animals such as birds, fish, and whales who rely on eating zooplankton for their energy.",
+        "image": "../components/picturesZooplankton.jpeg",
+        "source": "https://deeply.thenewhumanitarian.org/arctic/articles/2017/03/29/on-thin-ice-disappearing-zooplankton-could-collapse-arctic-food-chain",
+        "picture-source": "https://www.whoi.edu/multimedia/ss-zooplankton/"
+    }
+    {
+        "name": "Whales",
+        "information": "Some of the biggest threats to whales directly include bycatch/entanglement (as mentioned previously) and ship strikes. To expand on ship strikes, globally up to 20,000 whales die from collisions each year and kill 20 times more whales than whale hunting/whaling. That being said, it is very difficult to record accurate whale numbers for bycatch and ship strikes. ",
+        "image": "../components/picturesWhale.jpeg",
+        "source": "https://sevenseasmedia.org/collisions-with-vessels-the-deadliest-threat-for-whales/#:~:text=Every%20year%2C%20up%20to%2020%2C000,the%20magnitude%20of%20this%20phenomenon; https://www.alaskawhalefoundation.org/conservation#:~:text=Ship%20strikes%20are%20one%20of,the%20risk%20of%20ship%20strikes; https://www.fisheries.noaa.gov/agency-statement/response-recent-reports-killer-whale-incidental-catches-alaska",
+        "picture-source": "https://majormarine.com/whale-watching/"
     }
 ]
