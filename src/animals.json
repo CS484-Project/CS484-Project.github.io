@@ -52,14 +52,14 @@
         "image": "../components/picturesFish.jpg",
         "source": "https://www.tandfonline.com/doi/full/10.1080/15230430.2021.1974668; https://files.worldwildlife.org/wwfcmsprod/files/Publication/file/4f3dp19kqu_Effect_of_Climate_Change_on_Actic_Fish_fact_sheet.pdf",
         "picture-source": "https://www.nationalfisherman.com/alaska/alaska-salmon-returns-down-87-percent-as-bristol-bay-sockeye-harvest-soars"
-    }
+    },
     {
         "name": "Zooplankton",
         "information": "Zooplankton feed off of the algae that grows underneath sea ice. However, as sea ice rapidly melts and disappears, zooplankton lose this source of food and begin to starve. Loss of zooplankton causes disastrous bottom-up consequences for animals starting with animals such as birds, fish, and whales who rely on eating zooplankton for their energy.",
         "image": "../components/picturesZooplankton.jpeg",
         "source": "https://deeply.thenewhumanitarian.org/arctic/articles/2017/03/29/on-thin-ice-disappearing-zooplankton-could-collapse-arctic-food-chain",
         "picture-source": "https://www.whoi.edu/multimedia/ss-zooplankton/"
-    }
+    },
     {
         "name": "Whales",
         "information": "Some of the biggest threats to whales directly include bycatch/entanglement (as mentioned previously) and ship strikes. To expand on ship strikes, globally up to 20,000 whales die from collisions each year and kill 20 times more whales than whale hunting/whaling. That being said, it is very difficult to record accurate whale numbers for bycatch and ship strikes. ",
