@@ -117,8 +117,8 @@
         <p> ${animalInfo.information} </p>
         <div class = "modal-source">
           If you want to find more information check out: 
-          <div> Source: <a href = "${animalInfo.source}"> ${animalInfo.source} </a> </div>
-          <div> Picture Source: <a href = "${animalInfo["picture-source"]}"> ${animalInfo["picture-source"]} </a> </div>
+          <p> Source: <a href = "${animalInfo.source}"> ${animalInfo.source} </a> </p>
+          <p> Picture Source: <a href = "${animalInfo["picture-source"]}"> ${animalInfo["picture-source"]} </a> </p>
         </div>
         `
         document.getElementById(id+"-div").innerHTML = info;
