@@ -104,3 +104,12 @@ body{
 h1, h2, p{
     color: var(--cream-brown);
 }
+
+hr {
+    background: #cc5500;
+    border-color: #cc5500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 2px;
+    width: 15%;
+}
