@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../components/food-web.css"/>
     <link rel="stylesheet" href="../components/styles.css" />
     <link rel = "stylesheet" href = "../components/modal.css"/>
-    <title>Forestr: Foodweb</title>
+    <title>Forestr: Food Chain</title>
 <!-- 
     <script type = "module">
       import animals from './animals.json' assert { type: "json" };
@@ -143,88 +143,111 @@
   </head>
   <body>
 
-  <div class="web-container">
-    <div class="web-level pastel-red" style="border-radius: 10px 10px 0px 0px !important;">
-      <img role="button" id="wolves" src="../components/pictures/Wolf.jpg"class="web-image web-level-item" onclick="openModal(this.id)">
-        <!-- MODAL WOLVES -->
-        <div id="wolves-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "wolves-div"></div>
-          </div>
+    <div id="grid">
+      <div id="instructions">
+        <h1>How to use the Food Chain</h1>
+        <br>
+        <h2>General Use</h2>
+        <hr>
+        <p>
+          <ol>
+            <li>
+              To start using the food web, we are able to start by choosing any animal on the web.
+            </li>
+            <br>
+            <li>
+              Once you have chosen an animal, you can click on it to open up a modal with more information about the animal.
+            </li>
+            <br>
+            <li>
+              In the modal, you can find information about the animal, as well as sources for the information.
+            </li>
+          </ol>
+        </p>
+      </div>
+      <div id="web" class="web-container">
+        <div class="web-level pastel-red" style="border-radius: 10px 10px 0px 0px !important;">
+          <img role="button" id="wolves" src="../components/pictures/Wolf.jpg"class="web-image web-level-item" onclick="openModal(this.id)">
+            <!-- MODAL WOLVES -->
+            <div id="wolves-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "wolves-div"></div>
+              </div>
+            </div>
+    
+          <img role="button" id="whales" src="../components/pictures/Whale.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL WHALES -->
+            <div id="whales-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "whales-div"></div>
+              </div>
+            </div>
+    
+            <img role="button" id="bears" src="../components/pictures/Bear.jpeg" class="web-image web-level-item pastel-blue" onclick="openModal(this.id)">
+            <!-- MODAL BEARS -->
+            <div id="bears-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "bears-div"></div>
+              </div>
+            </div>
         </div>
-
-      <img role="button" id="whales" src="../components/pictures/Whale.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL WHALES -->
-        <div id="whales-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "whales-div"></div>
-          </div>
+    
+        <div class="web-level pastel-tan">
+          <img role="button" id="lagomorpha" src="../components/pictures/Lagomorpha.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL LAGOMORPHA -->
+            <div id="lagomorpha-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "lagomorpha-div"></div>
+              </div>
+            </div>
+    
+            <img role="button" id="ungulates" src="../components/pictures/Ungulates.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL UNGULATES -->
+            <div id="ungulates-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "ungulates-div"></div>
+              </div>
+            </div>
         </div>
-
-        <img role="button" id="bears" src="../components/pictures/Bear.jpeg" class="web-image web-level-item pastel-blue" onclick="openModal(this.id)">
-        <!-- MODAL BEARS -->
-        <div id="bears-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "bears-div"></div>
-          </div>
+    
+        <div class="web-level pastel-blue">
+          <img role="button" id="fish" src="../components/pictures/Fish.jpg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL FISH -->
+            <div id="fish-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "fish-div"></div>
+              </div>
+            </div>
+    
+            <img role="button" id="sea-birds" src="../components/pictures/SeaBird.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL SEA BIRDS -->
+            <div id="sea-birds-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "sea-birds-div"></div>
+              </div>
+            </div>
         </div>
+    
+        <div class="web-level pastel-lime" style="border-radius: 0px 0px 10px 10px !important;">
+          <img role="button" id="zooplankton" src="../components/pictures/Zooplankton.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL ZOOPLANKTON -->
+            <div id="zooplankton-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "zooplankton-div"></div>
+              </div>
+            </div>
+    
+            <img role="button" id="native-plants" src="../components/pictures/NativePlants.jpeg"  class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
+            <!-- MODAL NATIVE PLANTS -->
+            <div id="native-plants-modal" class = "modal">
+              <div class="modal-content">
+                <div id = "native-plants-div"></div>
+              </div>
+            </div>
+        </div>
+    
+      </div>
     </div>
-
-    <div class="web-level pastel-tan">
-      <img role="button" id="lagomorpha" src="../components/pictures/Lagomorpha.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL LAGOMORPHA -->
-        <div id="lagomorpha-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "lagomorpha-div"></div>
-          </div>
-        </div>
-
-        <img role="button" id="ungulates" src="../components/pictures/Ungulates.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL UNGULATES -->
-        <div id="ungulates-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "ungulates-div"></div>
-          </div>
-        </div>
-    </div>
-
-    <div class="web-level pastel-blue">
-      <img role="button" id="fish" src="../components/pictures/Fish.jpg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL FISH -->
-        <div id="fish-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "fish-div"></div>
-          </div>
-        </div>
-
-        <img role="button" id="sea-birds" src="../components/pictures/SeaBird.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL SEA BIRDS -->
-        <div id="sea-birds-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "sea-birds-div"></div>
-          </div>
-        </div>
-    </div>
-
-    <div class="web-level pastel-lime" style="border-radius: 0px 0px 10px 10px !important;">
-      <img role="button" id="zooplankton" src="../components/pictures/Zooplankton.jpeg" class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL ZOOPLANKTON -->
-        <div id="zooplankton-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "zooplankton-div"></div>
-          </div>
-        </div>
-
-        <img role="button" id="native-plants" src="../components/pictures/NativePlants.jpeg"  class="web-image web-level-item pastel-purple" onclick="openModal(this.id)">
-        <!-- MODAL NATIVE PLANTS -->
-        <div id="native-plants-modal" class = "modal">
-          <div class="modal-content">
-            <div id = "native-plants-div"></div>
-          </div>
-        </div>
-    </div>
-
-  </div>
 
   </body>
   <script src="../src/script.js"></script>

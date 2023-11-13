@@ -3,7 +3,7 @@ let headerInfo = `
     <nav>
           <ul class="nav__links">
             <li><a href="../src/index.html">Home</a></li>
-            <li><a href="../src/foodweb.html">Food Web</a></li>
+            <li><a href="../src/foodchain.html">Food Chain</a></li>
             <li><a href="../src/map.html">Map</a></li>
             <li><a href="../src/info.html">Info</a></li>
           </ul>

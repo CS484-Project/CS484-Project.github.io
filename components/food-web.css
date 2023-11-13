@@ -6,6 +6,19 @@
     --chamomile: #efeeb4;
     --sea-salt:  #f7f7f6;
     --fir: #36492e;
+
+    --fir: #36492e;
+    --fir-dark: rgb(25, 33, 22);
+    --medium-brown: #4d6941;
+    --cream-brown: #eccca5;
+    --new-cream-brown: hsl(33, 67%, 86%);
+    --orange: #cc5500;
+
+    --header: var(--fir-dark);
+    --bg: var(--new-cream-brown) ;
+    --button: var(--orange);
+    --text-color: var(--seasalt);
+    --text-color-hover: var(--lime);
 }
 
 body{
@@ -73,3 +86,21 @@ body{
     background-color: #bcc0e3;
 }
 
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#instructions{
+    position: left;
+    padding: 25px;
+    margin-top: 45px;
+}
+
+#web{
+    margin-right: 15px;
+}
+
+h1, h2, p{
+    color: var(--cream-brown);
+}
